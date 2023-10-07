@@ -41,12 +41,17 @@ nav{
     justify-content: center;
 } 
 
-#categories-1{
+.categories-1{
     display:flex;
     flex-wrap: wrap;
     padding-inline: 5vw;
     justify-content: space-around;
 }
+
+.categories-1>img:hover{
+    box-shadow:#213a50;
+ }
+
 
 .scroll-container{
     width: 85vw;
@@ -89,6 +94,10 @@ nav{
 .my-card>img{
     display: inline-block;
     margin: auto;
+}
+
+.my-card:hover{
+    box-shadow: #213a50;
 }
 
 
